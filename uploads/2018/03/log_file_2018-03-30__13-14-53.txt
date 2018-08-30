@@ -1,0 +1,59 @@
+
+---Upload files---
+Redux file was not uploaded. Error: File is empty. Please upload something more substantial.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 180
+Files info:
+Site URL = http://themehunk.com/wp-themes/shopdummy
+Data file = /home/themehunk123/public_html/wp-themes/wp-content/uploads/sites/53/2018/03/shopline.wordpress.2018-03-30.xml
+Widget file = /home/themehunk123/public_html/wp-themes/wp-content/uploads/sites/53/2018/03/themehunk.com-wp-themes-shopline-widgets.wie
+Customizer file = /home/themehunk123/public_html/wp-themes/wp-content/uploads/sites/53/2018/03/shopline-export.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Primary Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - RECENT BLOG POST - Imported
+Custom HTML - TEXT WIDGET - Imported
+Video - Latest Video - Imported
+
+First Footer Widget Area : 
+
+Navigation Menu - Our Story - Imported
+
+Second Footer Widget Area : 
+
+Tag Cloud - No Title - Imported
+
+Third Footer Widget Area : 
+
+Recent Posts - Recent Post - Imported
+
+Fourth Footer Widget Area : 
+
+Text - About - Imported
+
+shopservice-widget : Sidebar does not exist in theme (moving widget to Inactive)
+
+shopline-shopservice-widget - Free Delivery  - Site does not support widget
+shopline-shopservice-widget - Money Guarantee - Site does not support widget
+shopline-shopservice-widget - Payment Method - Site does not support widget
+shopline-shopservice-widget - Support 24/7 - Site does not support widget
+shopline-shopservice-widget - 100% Safe  - Site does not support widget
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!

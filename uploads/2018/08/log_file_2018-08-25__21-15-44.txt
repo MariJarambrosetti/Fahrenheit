@@ -1,0 +1,58 @@
+
+---Downloaded files---
+The import files for: Demo Import 1 were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost:8888
+Data file = C:\Users\maria\Desktop\Fahrenheit/wp-content/themes/shopline//demo/import/shopline.xml
+Widget file = C:\Users\maria\Desktop\Fahrenheit/wp-content/themes/shopline//demo/import/shopline.wie
+Customizer file = C:\Users\maria\Desktop\Fahrenheit/wp-content/themes/shopline//demo/import/shopline.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Primary Sidebar : 
+
+Buscar - No Title - Widget already exists
+Entradas recientes - No Title - Widget already exists
+Comentarios recientes - No Title - Widget already exists
+Archivos - No Title - Widget already exists
+Categorías - No Title - Widget already exists
+Meta - No Title - Widget already exists
+Entradas recientes - RECENT BLOG POST - Imported
+HTML personalizado - TEXT WIDGET - Imported
+Vídeo - Latest Video - Imported
+
+First Footer Widget Area : 
+
+Menú de Navegación - Our Story - Imported
+
+Second Footer Widget Area : 
+
+Nube de etiquetas - No Title - Imported
+
+Third Footer Widget Area : 
+
+Entradas recientes - Recent Post - Imported
+
+Fourth Footer Widget Area : 
+
+Texto - About - Imported
+
+
