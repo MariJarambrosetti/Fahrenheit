@@ -13,5 +13,13 @@
 
 	add_action( 'wp_enqueue_scripts', 'dl_enqueue_style_child' );
 
+	function dl_enqueue_scripts_child() {
+		wp_register_script( 'custom-script', get_theme_file_uri(). '/assets/js/custom_script.js', null, null, true );
+
+		wp_enqueue_script( 'custom-script');
+	}
+
+	add_action( 'wp_enqueue_scripts', 'dl_enqueue_scripts_child');
+
 
 
