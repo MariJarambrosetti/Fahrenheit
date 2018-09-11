@@ -1,3 +1,32 @@
 .fa-instagram {
 	background-color: #E8285E;
 }
+
+/*.page-head-image {
+	background: url(http://localhost:8888/wp-content/themes/shopline-child/images/page-head.jpg)!important;
+	background-image: url(http://localhost:8888/wp-content/themes/shopline-child/images/page-head.jpg)!important;
+	background-attachment: fixed!important;
+	background-position: 50% 0px!important;
+	background-size: cover!important;
+	background-position: center!important;
+    background-repeat: no-repeat!important;
+}*/
+
+.page-head {
+	display: none;
+}
+
+
+#container_quienessomos h2 {
+	text-align: center;
+	padding: 2em;
+	background-color: #e87204c9;
+}
+
+.qs {
+	padding: 3em 9em;
+}
+
+.qs p {
+	padding-bottom: 2em;
+}
