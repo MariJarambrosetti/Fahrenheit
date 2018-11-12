@@ -30,14 +30,3 @@
 .qs p {
 	padding-bottom: 2em;
 }
-
-header.shrink, .home header.hdr-transparent.shrink {
-    background: #e8720478!important;
-}
-
-@media screen and (min-width: 1025px){
-	
-	.navigation .menu > li > a {
-	    color: #fffdfd!important;
-	}
-}
