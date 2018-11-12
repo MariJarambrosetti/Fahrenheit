@@ -1,12 +1,12 @@
 <?php
 // cart total item count filter
 if ( ! function_exists( 'shopline_header_add_to_cart_fragment' ) ) :
-    add_filter('add_to_cart_fragments', 'shopline_header_add_to_cart_fragment');
+    add_filter('woocommerce_add_to_cart_fragments', 'shopline_header_add_to_cart_fragment');
 function shopline_header_add_to_cart_fragment( $fragments ) {
   global $woocommerce;
   ob_start();
   ?>
-    <a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>"><i class="fa fa-shopping-cart"></i><div class="cart-crl"><?php echo $woocommerce->cart->cart_contents_count; ?></div></a>
+    <a class="cart-contents" href="<?php echo wc_get_cart_url(); ?>"><i class="fa fa-shopping-cart"></i><div class="cart-crl"><?php echo $woocommerce->cart->cart_contents_count; ?></div></a>
   <?php
 
   $fragments['a.cart-contents'] = ob_get_clean();

@@ -23,6 +23,9 @@ td#today, #accordion .sidebar-quickcart p.buttons a, .woocommerce a.button.alt, 
     background: $theme_color;
     border-color: $theme_color;
 }
+#post_section .blog-cmt a:before{
+    color:{$theme_color};
+}
 #shopmain.woocommerce nav.woocommerce-pagination ul li a:focus,#shopmain.woocommerce nav.woocommerce-pagination ul li a:hover{
   color:#fff;
 }
@@ -626,7 +629,7 @@ $shopline_style .="#post_section .block-heading h2{color:{$blog_heading_color};}
 #post_section .block-heading p{color:{$blog_subheading_color};}
 .lst-post figure.blog-list h3 a{color:{$blog_text_heading_color};}
 .lst-post figure.blog-list p{color:{$blog_text_desc_color};}
-.lst-post figure.blog-list span{color:{$blog_datetxt_color};}
+.lst-post figure.blog-list span,#post_section .blog-cmt a {color:{$blog_datetxt_color};}
 #post_section:before{ background:{$blog_overly};}
 #post_section .owl-theme .owl-dots .owl-dot.active span, #post_section .owl-theme .owl-dots .owl-dot:hover span{ background:{$blog_line_color};}
 section#post_section{background-color:{$blog_overly};padding-top:{$blog_top_padding}px;padding-bottom:{$blog_bottom_padding}px;}";

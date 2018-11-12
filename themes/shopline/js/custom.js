@@ -7,7 +7,7 @@ jQuery(window).load(function(){
             jQuery('.fadein-slider :first-child').fadeOut(2000).next('.slide-item').fadeIn(2000).end().appendTo('.fadein-slider');
         }, speed);
     }
-});  
+});   
 
 // overlay search
   jQuery('#close-btn').click(function() {

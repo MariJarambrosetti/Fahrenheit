@@ -22,7 +22,9 @@ function shopline_slidespeed(){
     }   
     return $slidespeed;
 }
-
+function shopline_comment_number_thnk(){
+comments_popup_link(__('0','shopline'), __('1','shopline'), __('%','shopline')); 
+ }
 function shopline_close_bottom($page_show){
 $return = "<h1 class='title overtext'>".get_the_title()."</h1>";
 if($page_show=='archive'){
@@ -38,9 +40,10 @@ function shopline_innerpage_hero($header='top',$page_show = 'page'){
 
     if($header=='top'){
         $return='';
+        if (!function_exists( 'shopline_inner_page_set' ) ){
             $shopline_inner_page_set = get_theme_mod('shopline_inner_page_set','image');
             $innervideo = get_theme_mod('inner_hero_video');
-
+        }
         $oneline_plx = get_theme_mod('parallax_opt');
         if($oneline_plx =='' || $oneline_plx =='0'){  
             $prlx_class = 'parallax';
@@ -101,15 +104,13 @@ function shopline_innerpage_hero($header='top',$page_show = 'page'){
              $return .= shopline_close_bottom($page_show);
 
         elseif($shopline_inner_page_set=='color' || $shopline_inner_page_set=='image'):
-            $return .='<div class="page-head-image" 
+            $return.='<div class="page-head-image" 
             style="'.shopline_default_header_image().'" 
             data-center="'.$prlx_data_center.'" data-top-bottom="'.$prlx_top_bottom.'">
             <div class="full-fs-caption"> 
 
                         <div class="caption-container">';
              $return .= shopline_close_bottom($page_show);
-            else:
-            $return .= shopline_close_bottom($page_show);
         endif;
             echo $return;
     } elseif($header=='hide'){

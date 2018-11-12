@@ -177,7 +177,7 @@ $svgbg = shopline_svg_enable('blog_options','blog_svg_style','blog_overly');
                 <a href="<?php echo get_day_link($archive_year,$archive_month, $archive_day); ?>"><b><?php the_time('d'); ?></b><span><?php the_time('M Y'); ?></span></a>
               </div>
               <div class="blog-cmt">
-                <a href="#"><i class="fa fa-comment"></i><span>32</span></a>
+                <?php echo shopline_comment_number_thnk();?>
               </div>
             </div>
             </figcaption>

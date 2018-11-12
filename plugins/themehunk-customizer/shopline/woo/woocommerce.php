@@ -23,7 +23,7 @@ if ( ! function_exists( 'shopline_cart_total_item' ) ) {
   function shopline_cart_total_item() {
       global $woocommerce;
   ?>
-    <a href="<?php echo $woocommerce->cart->get_cart_url(); ?>" class="cart-contents" ><i class="fa fa-shopping-cart"></i><div class="cart-crl"><?php echo $woocommerce->cart->cart_contents_count; ?></div></a>     
+    <a href="<?php echo wc_get_cart_url(); ?>" class="cart-contents" ><i class="fa fa-shopping-cart"></i><div class="cart-crl"><?php echo $woocommerce->cart->cart_contents_count; ?></div></a>     
     <?php
   }
 }

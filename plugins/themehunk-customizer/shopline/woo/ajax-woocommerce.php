@@ -25,7 +25,7 @@ add_action( 'wp_ajax_shopline_product_count_update', 'shopline_product_count_upd
 add_action( 'wp_ajax_nopriv_shopline_product_count_update', 'shopline_product_count_update' );
 function shopline_product_count_update() {
         global $woocommerce; ?>
-        <a href="<?php echo $woocommerce->cart->get_cart_url(); ?>" class="cart-contents" ><i class="fa fa-shopping-cart"></i><div class="cart-crl"><?php echo $woocommerce->cart->cart_contents_count; ?></div></a>     
+        <a href="<?php echo wc_get_cart_url(); ?>" class="cart-contents" ><i class="fa fa-shopping-cart"></i><div class="cart-crl"><?php echo $woocommerce->cart->cart_contents_count; ?></div></a>     
     <?php
       die();
 }

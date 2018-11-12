@@ -3,8 +3,8 @@ Contributors: ThemeHunk
 Author URI: : https://www.themehunk.com/
 Tags: themehunk, customizer, oneline-lite,Testimonial,Team, service
 Requires at least: 4.5
-Tested up to: 4.9.7
-Stable tag: 2.1.0
+Tested up to: 4.9.8
+Stable tag: 2.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,12 @@ Just upload the `themehunk-customizer.zip` to the `/wp-content/plugins/` directo
 == Screenshots ==
 
 == Changelog ==
+
+= 2.1.2=
+* shopline- Deprecated function issue fixed.
+
+= 2.1.1=
+* shopline- error fixed.
 
 = 2.1.0=
 * shopline- section ordering issue fixed.

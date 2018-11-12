@@ -15,7 +15,6 @@ function  __construct(){
 function active(){
     if(!get_option( "thunk_customizer_disable_popup")):
     add_action('customize_controls_print_styles', array($this,'popup_styles'));
-    add_action('customize_controls_print_footer_scripts',array(__CLASS__,'popup_message'));
     add_action( 'customize_controls_enqueue_scripts', array($this,'popup_scripts'));
     endif;
   }
@@ -55,10 +54,6 @@ function active_plugin(){
     return "<a href='javascript:void' onclick=\"shopline_install('{$url}'); return false;\"  data-slug='".esc_attr($plugin_slug)."' class='".esc_attr( $button_class )."'>{$button_txt}</a>";
 
 }
-
-function popup_message() {
-    require_once get_parent_theme_file_path('/inc/theme-setup/customizer-popup.php') ;
-} 
 
 function popup_styles() {
     wp_enqueue_style('shopline_customizer_popup', get_template_directory_uri() . '/inc/theme-setup/customizer-popup-styles.css');
