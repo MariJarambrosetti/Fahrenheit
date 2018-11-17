@@ -1,2 +1,4 @@
 2018-11-17T18:44:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\Users\maria\Desktop\Fahrenheit\wp-content\plugins\yith-woocommerce-wishlist\includes\class.yith-wcwl-admin-init.php en la línea 10
 
+2018-11-17T20:58:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\Users\maria\Desktop\Fahrenheit\wp-includes\Requests\Transport\cURL.php en la línea 163
+

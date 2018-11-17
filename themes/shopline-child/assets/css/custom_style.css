@@ -16,23 +16,48 @@
 	display: none;
 }
 
+/*QUIENES SOMOS PAGINA*/
 
-#container_quienessomos h2 {
+#container_quienessomos h2, #container_nuestrascervezas h2 {
 	text-align: center;
-	padding: 3em 2em 2em 2em;
+	padding: 5em 2em 2em 2em;
+	/*background-image: url("e-cerveza-fahrenheit-27.jpg");*/
 	background-color: #e87204c9;
 }
 
+.rows {
+	padding: 0 1em;
+}
+
 .qs {
-	padding: 6em 7em;
+	padding: 5.6em 7em;
 }
 
 .qs p {
 	padding-bottom: 2em;
 }
 
-.col {
+.cols {
 	max-width: 50%;
 	float: left;
 }
+
+.dondestamos {
+	width: 100%;
+	text-align: center; 
+	float: left;
+}
+
+@media (max-width: 1288px) {
+
+	.cols {
+		max-width: 100%;
+		float: left;
+	}
+
+}
+
+/*NUESTRAS CERVEZAS PAGINAS*/ 
+
+
 
