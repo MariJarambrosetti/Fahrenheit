@@ -19,14 +19,20 @@
 
 #container_quienessomos h2 {
 	text-align: center;
-	padding: 2em;
+	padding: 3em 2em 2em 2em;
 	background-color: #e87204c9;
 }
 
 .qs {
-	padding: 3em 9em;
+	padding: 6em 7em;
 }
 
 .qs p {
 	padding-bottom: 2em;
 }
+
+.col {
+	max-width: 50%;
+	float: left;
+}
+
