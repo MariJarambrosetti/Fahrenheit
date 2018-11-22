@@ -48,6 +48,24 @@
 	float: left;
 }
 
+
+/*NUESTRAS CERVEZAS PAGINAS*/ 
+
+.columna-completa {
+	padding: 7em 7em 7em 49rem;
+	width: 100%;
+	float: left;
+	background-image: url('e-cerveza-fahrenheit-27.jpg');
+	opacity: 0.85;
+	background-repeat: no-repeat;
+}
+
+.columna-completa p {
+	color: white;
+	font-weight: 500;
+	text-shadow: 2px 1px #333; 
+}
+
 @media (max-width: 1288px) {
 
 	.cols {
@@ -55,9 +73,8 @@
 		float: left;
 	}
 
+	.columna-completa {
+		padding: 5em;
+	}
+
 }
-
-/*NUESTRAS CERVEZAS PAGINAS*/ 
-
-
-
