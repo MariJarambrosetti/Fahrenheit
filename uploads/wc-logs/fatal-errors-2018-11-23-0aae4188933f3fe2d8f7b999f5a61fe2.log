@@ -1,0 +1,8 @@
+2018-11-23T15:37:06+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\Users\maria\Desktop\Fahrenheit\wp-content\plugins\yith-woocommerce-wishlist\plugin-fw\lib\yit-video.php en la línea 12
+
+2018-11-23T15:37:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\Users\maria\Desktop\Fahrenheit\wp-content\themes\shopline\class-tgm-plugin-activation.php en la línea 35
+
+2018-11-23T15:55:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\Users\maria\Desktop\Fahrenheit\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_AdminView_Deprecated.php en la línea 11
+
+2018-11-23T15:56:04+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\Users\maria\Desktop\Fahrenheit\wp-content\plugins\yith-woocommerce-wishlist\plugin-fw\lib\yit-plugin-common.php en la línea 11
+

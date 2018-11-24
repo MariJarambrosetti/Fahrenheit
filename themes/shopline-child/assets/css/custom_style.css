@@ -12,7 +12,7 @@
     background-repeat: no-repeat!important;
 }*/
 
-.page-head {
+.page-head, .header-extra {
 	display: none;
 }
 
@@ -77,4 +77,10 @@
 		padding: 5em;
 	}
 
+}
+
+@media (max-width: 500px) {
+	.qs {
+		padding: 3em;
+	}
 }
